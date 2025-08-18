@@ -1,9 +1,8 @@
 name: Build and Publish Docker image
 
 on:
-  push:
-    branches:
-      - main
+  repository_dispatch:
+    types: [nginx_update]
 
 jobs:
   build:
