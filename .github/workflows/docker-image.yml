@@ -2,7 +2,7 @@ name: ci
 
 on:
   repository_dispatch:
-    types: [nginx_update]
+    types: [haproxy_update]
 
 jobs:
   docker:
