@@ -10,6 +10,4 @@ services:
       - "443:443"       #chat with tls
       - "5222:5222"     #chat without tls
       - "587:587"       #media
-    environment:
-      - PUBLIC_IP=YOUR_SERVER_IP
 ```
